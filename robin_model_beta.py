@@ -10,7 +10,7 @@ def main():
         
         if st.button("Enter"):
                 if user_input:
-                        response = ollama.chat(model = 'llama3',messages=[{'role':'user','content':user_input}])
+                        response = ollama.chat(model = 'robin_model_beta',messages=[{'role':'user','content':user_input}])
 
 
                         st.text('Response:')
